@@ -1,0 +1,65 @@
+.menu{
+    background-color: #13131a;
+    min-height: 100vh;
+}
+.menu .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.menu .box-container .box {
+    padding: 5rem;
+    text-align: center;
+    border: 0.1rem solid #ffc107;
+  }
+  
+  .menu .box-container .box img {
+    height: 7rem;
+    border-radius: 50%;
+  }
+  
+  .menu .box-container .box h3 {
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .menu .box-container .box .price {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+  }
+  
+  .menu .box-container .box .price span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+  }
+  
+  .menu .box-container .box:hover {
+    background: #443300;
+    transition: 0.5s;
+  }
+  /* .btnn{
+    
+     
+        display: inline-block;
+        padding: 0.9rem 3rem;
+        font-size: 1.7rem;
+        color: #fff;
+        background: #ffc107;
+        cursor: pointer;
+      
+      
+      
+  } */
+
+  @media (max-width: 600px) {
+    .menu .box-container{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      
+  }
+  }

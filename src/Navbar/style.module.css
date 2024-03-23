@@ -1,0 +1,50 @@
+.links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    li {
+      list-style-type: none;
+      color: white;
+    }
+   
+}
+.links :hover{
+    border-bottom:1px solid white;
+    color: #ffc107;
+    
+   }
+.menu_button{
+    display: none;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 7px;
+}
+
+.menu_wrapper_button{
+    .links_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        position: absolute;
+        background: #000;
+        top: 70px;
+        right: 0px;
+        width: 150px;
+       
+    }
+    a:hover{
+    color: #ffc107;
+    }
+}
+
+@media (max-width: 900px) {
+    .links,.links_wrapper{
+       display: none ;
+    }
+    .menu_button{
+        display: flex; 
+    }
+    
+}
+

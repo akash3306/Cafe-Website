@@ -1,0 +1,48 @@
+.products{
+    background-color: #13131a;
+    min-height: 100vh; 
+}
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.products .box-container .box {
+    text-align: center;
+    border: 0.1rem solid #ffc107;
+    padding: 2.5vw;
+  }
+  
+  
+  .products .box-container .box .image {
+    padding: 1vw 0;
+  }
+  
+  .products .box-container .box .image img {
+    height: 20rem;
+
+  }
+  
+  .products .box-container .box .content h3 {
+    color: #fff;
+    font-size: 2.5vw;
+  }
+  
+  
+  .products .box-container .box .content .price {
+    color: #fff;
+    font-size: 2.5vw;
+  }
+  
+  .products .box-container .box .content .price span {
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1.5vw;
+  }
+  
+  @media (max-width: 900px) {
+    .box-container{
+      display: flex;
+      justify-content: center;
+    }
+  }

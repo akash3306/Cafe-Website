@@ -1,0 +1,118 @@
+
+.Login{
+ background-image: url(../logo.avif);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    height: 100vh;
+    width: 100vw;
+       
+  }
+  
+   
+  
+  .logincontainer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+   
+    
+  }
+  
+  .logincontainerform{
+   padding: 20px;
+   height: 420px;
+   border: .5px solid black;
+   background: rgba(255, 255, 255, 0.19);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(4.6px);
+   -webkit-backdrop-filter: blur(4.6px);
+ 
+  }
+
+  h2{
+    text-align: center;
+    color: black;
+  }
+  .details{
+    display: flex;
+   flex-direction: column; 
+    
+  }
+  .error{
+    color: black;
+  }
+  .Use{
+    input{
+      padding-left: 10px;
+      margin: 10px 0px;
+      width: 100%;
+      height: 45px;
+      border: 1px solid black;
+      border-radius: 10px;
+      outline: none;
+      background-color: transparent;
+      color: white;
+      transition: .5s ease;
+    }
+     input::placeholder{
+      color: #94a3b8;
+    }
+    
+     input:focus, input:hover {
+      outline: none;
+      border-color: rgb(77, 76, 76);
+      background-color: transparent;
+      box-shadow: 0 0 0 4px gray;
+    }
+  }
+  
+  .sign button{
+    width: 318px;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border: .5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .button-submit:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 rgb(4, 143, 34);
+  }
+  
+  
+  
+  .fu p{
+    margin: 10px 0px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+  }
+
+  .login{
+      text-align: center;
+       border: 1px solid black;
+       width: 318px;
+       padding: 8px;
+       color: green;
+       background-color: transparent;
+       font-size: 13px;
+       cursor: pointer;
+       border-radius: 5px;
+       font-size: 15px;
+       margin-bottom: 20px;
+  }
+.login:hover{
+    color: white;
+    background-color: green;
+  }
+  
+  
+  
+  

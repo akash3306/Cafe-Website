@@ -1,0 +1,53 @@
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)),
+      url(../Images/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.home .content {
+    max-width: 60rem;
+  }
+  
+  .home span {
+    color: #ffc107;
+    text-transform: uppercase;
+  }
+  
+  .home .content h3 {
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .home .content p {
+    font-size: 2vw;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #eee;
+  }
+section {
+    padding: 2vw 7%;
+  }
+  .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9vw 3vw;
+    font-size: 1.7vw;
+    color: #fff;
+    background-color: #ffc107;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    letter-spacing: 0.2rem;
+  }
+  /* @media (max-width: 600px) {
+    
+
+  } */

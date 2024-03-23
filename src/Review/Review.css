@@ -1,0 +1,40 @@
+.review{
+    background: #13131a;
+    min-height: 100vh; 
+}
+.review .box-container {
+    display: flex;
+    gap: 15px;
+}
+.review .box-container .box {
+    border: 0.1rem solid #ffc107;
+    text-align: center;
+    padding:  2vw;
+  }
+  
+  .review .box-container .box p {
+    font-size: 1.2vw;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 2vw 0;
+  }
+  
+  .review .box-container .box .user {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .review .box-container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  @media (max-width: 900px) {
+    .review{
+      background: #13131a;
+      min-height: 80vh; 
+  }
+    
+  }
+
